@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+  --color-navy: #0b1026;
+  --color-navy-light: #141b3d;
+  --color-navy-lighter: #1e2650;
+  --color-gold: #c9a84c;
+  --color-gold-light: #e0c36a;
+  --color-cream: #f5f0e8;
+  --color-lipstick: #e63946;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-navy);
+  color: var(--color-cream);
+  margin: 0;
+}
